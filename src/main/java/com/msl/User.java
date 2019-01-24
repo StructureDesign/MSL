@@ -1,5 +1,7 @@
 package com.msl;
 
+import com.msl.borrowStrategy.AbstractBorrowStrategy;
+
 import java.util.List;
 
 /**
@@ -13,6 +15,9 @@ public class User {
     private String address;
     private String mail;
     private List<User> admins;
+    private AbstractBorrowStrategy borrowStrategy;
+    private int maxNumber;
+    private int maxPeriod;
 
     public void register(User admin) {
         admins.add(admin);
@@ -75,5 +80,19 @@ public class User {
 
     public void setAdmins(List<User> admins) {
         this.admins = admins;
+    }
+
+    public void setBorrowStrategy(AbstractBorrowStrategy borrowStrategy) {
+        this.borrowStrategy = borrowStrategy;
+        this.maxNumber = borrowStrategy.getMaxNumber();
+        this.maxPeriod = borrowStrategy.getMaxPeriod();
+    }
+
+    public int getMaxPeriod() {
+        return maxPeriod;
+    }
+
+    public int getMaxNumber() {
+        return maxNumber;
     }
 }

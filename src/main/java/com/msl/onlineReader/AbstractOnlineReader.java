@@ -1,6 +1,6 @@
 package com.msl.onlineReader;
 
-public class AbstractOnlineReader {
+public abstract class AbstractOnlineReader {
     public AbstractOnlineReader(){
 
     }
