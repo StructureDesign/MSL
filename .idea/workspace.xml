@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbc116f5-719f-49bc-93be-65f1dcb6befe" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/msl/borrowStrategy/AbstractBorrowStrategy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/msl/borrowStrategy/TeacherBorrowStrategy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/msl/borrowStrategy/UndergraduateBorrowStrategy.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/onlineReader/AbstractOnlineReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/onlineReader/AbstractOnlineReader.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,8 +38,8 @@
       <file leaf-file-name="AbstractBorrowStrategy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/borrowStrategy/AbstractBorrowStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="264">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <element signature="e#165#166#0" expanded="true" />
                 <element signature="e#197#198#0" expanded="true" />
@@ -173,7 +168,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="164" />
     <option name="y" value="103" />
     <option name="width" value="1607" />
@@ -376,15 +371,15 @@
       <updated>1548074638636</updated>
       <workItem from="1548074646062" duration="2089000" />
       <workItem from="1548241374222" duration="3141000" />
-      <workItem from="1548305066095" duration="1080000" />
+      <workItem from="1548305066095" duration="1318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6310000" />
+    <option name="totallyTimeSpent" value="6548000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="164" y="103" width="1607" height="962" extended-state="1" />
+    <frame x="164" y="103" width="1607" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -635,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/borrowStrategy/AbstractBorrowStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="264">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="e#165#166#0" expanded="true" />
             <element signature="e#197#198#0" expanded="true" />
