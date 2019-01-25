@@ -1,0 +1,16 @@
+.barButton{
+    -fx-font: 16 arial;
+    -fx-background-color: #555555;
+}
+.barButton:hover{
+    -fx-background-color: #313335;
+}
+.sureButton{
+    -fx-background-color: grey;
+}
+.sureButton:hover{
+    -fx-background-color:  linear-gradient(#313335,grey);
+}
+.sureButton:pressed{
+    -fx-background-color: #313335;
+}

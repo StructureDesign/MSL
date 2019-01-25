@@ -19,7 +19,12 @@ public class OnlineReaderFactory {
             case ".epub":
                 abstractOnlineReader = new Epubeader();
                 break;
-                default:
+            case ".doc":
+                abstractOnlineReader = new WordReader();
+                break;
+            case ".docx":
+                abstractOnlineReader = new WordReader();
+                break;
         }
         return abstractOnlineReader;
     }

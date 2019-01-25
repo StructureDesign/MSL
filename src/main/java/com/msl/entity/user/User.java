@@ -1,6 +1,6 @@
 package com.msl.entity.user;
 
-import com.msl.borrowStrategy.AbstractBorrowStrategy;
+import com.msl.borrowStrategy.BorrowStrategy;
 import com.msl.entity.book.Book;
 import com.msl.exception.NoPermissionException;
 
@@ -16,7 +16,7 @@ public class User implements Serializable, ProfileObserver {
     private String username;
     private String password;
     private String info;
-    private AbstractBorrowStrategy borrowStrategy;
+    private BorrowStrategy borrowStrategy;
     private int maxNumber;
     private int maxPeriod;
     protected boolean isAdmin;
@@ -69,7 +69,7 @@ public class User implements Serializable, ProfileObserver {
     }
 
 
-    public void setBorrowStrategy(AbstractBorrowStrategy borrowStrategy) {
+    public void setBorrowStrategy(BorrowStrategy borrowStrategy) {
         this.borrowStrategy = borrowStrategy;
         this.maxNumber = borrowStrategy.getMaxNumber();
         this.maxPeriod = borrowStrategy.getMaxPeriod();

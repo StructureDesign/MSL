@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="560.0" prefWidth="900.0" stylesheets="/css/global.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msl.ui.SettingBorrowStrategyController">
+    <children>
+        <Pane prefHeight="560.0" prefWidth="222.0" style="-fx-background-color: #555555;">
+            <children>
+                <VBox layoutX="0.0" layoutY="222.0" prefHeight="250.0" prefWidth="222.0">
+                    <children>
+                        <Button prefHeight="20" prefWidth="222" styleClass="barButton" text="Online Reader" textFill="#fffefc" />
+                        <Button prefHeight="20" prefWidth="222" styleClass="barButton" text="PersonalInfo Modify" textFill="#fffefc" />
+                        <Button prefHeight="20" prefWidth="222" styleClass="barButton" text="Set Borrow Strategy" textFill="#fffefc" />
+                        <Button prefHeight="20" prefWidth="222" styleClass="barButton" text="User Manage" textFill="#fffefc" />
+                        <Button prefHeight="20" prefWidth="222" styleClass="barButton" text="Book Manage" textFill="#fffefc" />
+                        <Button prefHeight="20" prefWidth="222" styleClass="barButton" text="Permission Manage" textFill="#fffefc" />
+                    </children>
+                </VBox>
+                <Label layoutX="14.0" layoutY="52.0" text="name: " textFill="#f2eeee" />
+                <Label layoutX="16.0" layoutY="125.0" text="identify:" textFill="#f2eeee" />
+                <Label layoutX="83.0" layoutY="52.0" text="yourname" textFill="#f2eeee" />
+                <Label layoutX="102.0" layoutY="125.0" text="youridentify" textFill="#f2eeee" />
+                <Label layoutX="51.0" layoutY="88.0" text="yourid" textFill="#f2eeee" />
+                <Label layoutX="16.0" layoutY="88.0" text="id: " textFill="#f2eeee" />
+            </children>
+        </Pane>
+        <Label layoutX="283.0" layoutY="40.0" text="Set Borrow Strategy">
+            <font>
+                <Font name="Microsoft YaHei" size="20.0" />
+            </font>
+        </Label>
+      <ComboBox layoutX="514.0" layoutY="132.0" prefHeight="36.0" prefWidth="237.0" promptText="user"/>
+      <ComboBox layoutX="514.0" layoutY="263.0" prefHeight="36.0" prefWidth="237.0" promptText="Strategy" />
+      <Label layoutX="322.0" layoutY="136.0" text="User Type:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="322.0" layoutY="267.0" text="Borrow Strategy">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button styleClass="sureButton" layoutX="477.0" layoutY="391.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="110.0" text="Sure" />
+    </children>
+</AnchorPane>
