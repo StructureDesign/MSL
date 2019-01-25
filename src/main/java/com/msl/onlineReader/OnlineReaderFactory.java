@@ -1,4 +1,4 @@
-package com.msl;
+package com.msl.onlineReader;
 
 import com.msl.onlineReader.AbstractOnlineReader;
 import com.msl.onlineReader.Epubeader;
@@ -15,8 +15,11 @@ public class OnlineReaderFactory {
         switch (strs[strs.length-1].toLowerCase()){
             case ".pdf":
                 abstractOnlineReader = new PdfReader();
+                break;
             case ".epub":
                 abstractOnlineReader = new Epubeader();
+                break;
+                default:
         }
         return abstractOnlineReader;
     }
