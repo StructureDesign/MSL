@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="560.0" prefWidth="900.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msl.ui.LoginController">
+   <children>
+      <Label layoutX="219.0" layoutY="70.0" text="Mangement System of Library" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idfield" layoutX="282.0" layoutY="200.0" prefHeight="48.0" prefWidth="340.0" promptText="username">
+         <font>
+            <Font size="22.0" />
+         </font></TextField>
+      <PasswordField fx:id="passwordField" layoutX="282.0" layoutY="279.0" prefHeight="48.0" prefWidth="340.0" promptText="password">
+         <font>
+            <Font size="22.0" />
+         </font></PasswordField>
+      <Button fx:id="loginBtn" layoutX="282.0" layoutY="361.0" mnemonicParsing="false" onAction="#login" prefHeight="48.0" prefWidth="340.0" text="Login">
+         <font>
+            <Font size="22.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

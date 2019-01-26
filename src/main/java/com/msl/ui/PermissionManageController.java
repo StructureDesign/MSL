@@ -8,19 +8,9 @@ import javafx.scene.control.Label;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class PersonalInfoModifyController implements Initializable {
+public class PermissionManageController implements Initializable {
     @FXML
     Label nameLabel, idLabel, identifyLabel;
-
-    @FXML
-    public void modifyInfo(){
-      Alert.info("Modify Info Successfully");
-    }
-
-    @FXML
-    public void modifyPassword(){
-        Alert.info("Modify Password Successfully");
-    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {

@@ -30,6 +30,30 @@ public class User implements Serializable, ProfileObserver {
         this.permission = new Permission();
     }
 
+    public boolean isAbleToCreateBook() {
+        return this.permission.isAbleToCreateBook();
+    }
+
+    public boolean isAbleToCreateUser() {
+        return this.permission.isAbleToCreateUser();
+    }
+
+    public boolean isAbleToEditBookInfo() {
+        return this.permission.isAbleToEditBookInfo();
+    }
+
+    public boolean isAbleToGenerateBorrowReport() {
+        return this.permission.isAbleToGenerateBorrowReport();
+    }
+
+    public boolean isAbleToGeneratePenaltyReport() {
+        return this.permission.isAbleToGeneratePenaltyReport();
+    }
+
+    public boolean isAbleToSearchUser() {
+        return this.permission.isAbleToSearchUser();
+    }
+
     public boolean createUser(User user) throws NoPermissionException {
         return permission.createUser(user);
     }

@@ -27,17 +27,10 @@ public class MainApp extends Application{
         stage.setTitle("Management System of Library");
         stage.setHeight(560);
         stage.setWidth(900);
-        onlineReader();
+        StageSingleton.toLoginView();
         stage.show();
     }
 
-    public void onlineReader(){
-        try {
-            OnlineReaderController controller = (OnlineReaderController) StageSingleton.replaceSceneContent("/fxml/OnlineReadingView.fxml");
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-    }
 
     public static void main(String[] args) {
         launch(args);

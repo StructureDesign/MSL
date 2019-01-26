@@ -76,4 +76,29 @@ public class Permission {
         }
         return false;
     }
+
+    public boolean isAbleToCreateBook() {
+        return ableToCreateBook;
+    }
+
+    public boolean isAbleToCreateUser() {
+        return ableToCreateUser;
+    }
+
+    public boolean isAbleToEditBookInfo() {
+        return ableToEditBookInfo;
+    }
+
+    public boolean isAbleToGenerateBorrowReport() {
+        return ableToGenerateBorrowReport;
+    }
+
+    public boolean isAbleToGeneratePenaltyReport() {
+        return ableToGeneratePenaltyReport;
+    }
+
+    public boolean isAbleToSearchUser() {
+        return ableToSearchUser;
+    }
 }
+

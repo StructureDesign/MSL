@@ -9,22 +9,23 @@ import com.msl.onlineReader.PdfReader;
  * @date 2019/01/23
  */
 public class OnlineReaderFactory {
-    public AbstractOnlineReader getOnlinReader(String filename){
+    public static AbstractOnlineReader getOnlinReader(String filename){
         AbstractOnlineReader abstractOnlineReader = null;
-        String[] strs = filename.split(".");
+        String[] strs = filename.split("\\.");
         switch (strs[strs.length-1].toLowerCase()){
-            case ".pdf":
+            case "pdf":
                 abstractOnlineReader = new PdfReader();
                 break;
-            case ".epub":
+            case "epub":
                 abstractOnlineReader = new Epubeader();
                 break;
-            case ".doc":
+            case "doc":
                 abstractOnlineReader = new WordReader();
                 break;
-            case ".docx":
+            case "docx":
                 abstractOnlineReader = new WordReader();
                 break;
+
         }
         return abstractOnlineReader;
     }

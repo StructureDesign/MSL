@@ -1,46 +1,23 @@
 package com.msl.ui;
 
 import com.msl.StageSingleton;
-import com.msl.entity.book.Book;
-import com.sun.org.apache.bcel.internal.generic.ALOAD;
+import com.msl.entity.user.User;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
+import javafx.scene.layout.Pane;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class BookManageController implements Initializable {
-
+public class UserManageController implements Initializable {
     @FXML
     Label nameLabel, idLabel, identifyLabel;
     @FXML
-    ComboBox<String> comboBox;
+    Pane createPane, searchPane;
     @FXML
-    ScrollPane modifyPane, createPane;
-
-    @FXML
-    public void comBoBoxAction(){
-        System.out.println("get");
-        System.out.println(comboBox.getValue());
-        if (comboBox.getValue().toLowerCase().equals("create")){
-            if (!StageSingleton.nowUser.isAbleToCreateBook()){
-                Alert.warning("No permission to create book");
-                return;
-            }
-            this.createPane.setVisible(true);
-            this.modifyPane.setVisible(false);
-        }else if (comboBox.getValue().toLowerCase().equals("modify")){
-            if (!StageSingleton.nowUser.isAbleToEditBookInfo()){
-                Alert.warning("No permission to edit book info");
-                return;
-            }
-            this.createPane.setVisible(false);
-            this.modifyPane.setVisible(true);
-        }
-    }
+    ScrollPane recordPane, penaltyPane;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -48,13 +25,26 @@ public class BookManageController implements Initializable {
         this.identifyLabel.setText(StageSingleton.userIdentify);
         this.idLabel.setText(StageSingleton.userId);
 
-        if (!StageSingleton.nowUser.isAbleToCreateBook()){
+        User user = StageSingleton.nowUser;
+        if (!user.isAbleToCreateUser()){
             this.createPane.setVisible(false);
         }
-        if (!StageSingleton.nowUser.isAbleToEditBookInfo()){
-            this.modifyPane.setVisible(false);
+        if (!user.isAbleToSearchUser()){
+            this.searchPane.setVisible(false);
+        }
+        if (!user.isAbleToGeneratePenaltyReport()){
+            this.penaltyPane.setVisible(false);
+        }
+        if (!user.isAbleToGenerateBorrowReport()){
+            this.recordPane.setVisible(false);
         }
     }
+
+    @FXML
+    public void createUser(){
+        Alert.info("Create user successfully");
+    }
+
 
     @FXML
     public void logout(){

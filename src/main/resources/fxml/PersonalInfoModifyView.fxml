@@ -7,27 +7,45 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="560.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msl.ui.PersonalInfoModifyController"
-stylesheets="/css/global.css">
+<AnchorPane prefHeight="560.0" prefWidth="900.0" stylesheets="/css/global.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msl.ui.PersonalInfoModifyController">
 <children>
     <Pane prefHeight="560.0" prefWidth="222.0" style="-fx-background-color: #555555;">
         <children>
             <VBox layoutX="0.0" layoutY="222.0" prefHeight="250.0" prefWidth="222.0">
                 <children>
-                    <Button prefHeight="20" prefWidth="222" styleClass="barButton" text="Online Reader" textFill="#fffefc" />
-                    <Button prefHeight="20" prefWidth="222" styleClass="barButton" text="PersonalInfo Modify" textFill="#fffefc" />
-                    <Button prefHeight="20" prefWidth="222" styleClass="barButton" text="Set Borrow Strategy" textFill="#fffefc" />
-                    <Button prefHeight="20" prefWidth="222" styleClass="barButton" text="User Manage" textFill="#fffefc" />
-                    <Button prefHeight="20" prefWidth="222" styleClass="barButton" text="Book Manage" textFill="#fffefc" />
-                    <Button prefHeight="20" prefWidth="222" styleClass="barButton" text="Permission Manage" textFill="#fffefc" />
+                    <Button onAction="#toOnlineReader" prefHeight="20" prefWidth="222" styleClass="barButton" text="Online Reader" textFill="#fffefc" />
+                    <Button onAction="#toPersonalInfoModify" prefHeight="20" prefWidth="222" styleClass="barButton" text="PersonalInfo Modify" textFill="#fffefc" />
+                    <Button onAction="#toSettingBorrowStrategy" prefHeight="20" prefWidth="222" styleClass="barButton" text="Set Borrow Strategy" textFill="#fffefc" />
+                    <Button onAction="#toUSerManage" prefHeight="20" prefWidth="222" styleClass="barButton" text="User Manage" textFill="#fffefc" />
+                    <Button onAction="#toBookManage" prefHeight="20" prefWidth="222" styleClass="barButton" text="Book Manage" textFill="#fffefc" />
+                    <Button onAction="#toPermissionManage" prefHeight="20" prefWidth="222" styleClass="barButton" text="Permission Manage" textFill="#fffefc" />
                 </children>
             </VBox>
-            <Label layoutX="14.0" layoutY="52.0" text="name: " textFill="#f2eeee" />
-            <Label layoutX="16.0" layoutY="125.0" text="identify:" textFill="#f2eeee" />
-            <Label layoutX="83.0" layoutY="52.0" text="yourname" textFill="#f2eeee" />
-            <Label layoutX="102.0" layoutY="125.0" text="youridentify" textFill="#f2eeee" />
-            <Label layoutX="51.0" layoutY="88.0" text="yourid" textFill="#f2eeee" />
-            <Label layoutX="16.0" layoutY="88.0" text="id: " textFill="#f2eeee" />
+            <Label layoutX="14.0" layoutY="52.0" text="name: " textFill="#f2eeee">
+                <font>
+                    <Font size="20.0" />
+                </font></Label>
+            <Label layoutX="16.0" layoutY="125.0" text="identify:" textFill="#f2eeee">
+                <font>
+                    <Font size="20.0" />
+                </font></Label>
+            <Label fx:id="nameLabel" layoutX="83.0" layoutY="52.0" text="" textFill="#f2eeee">
+                <font>
+                    <Font size="20.0" />
+                </font></Label>
+            <Label fx:id="identifyLabel" layoutX="102.0" layoutY="125.0" text="" textFill="#f2eeee">
+                <font>
+                    <Font size="20.0" />
+                </font></Label>
+            <Label fx:id="idLabel" layoutX="51.0" layoutY="88.0" text="" textFill="#f2eeee">
+                <font>
+                    <Font size="20.0" />
+                </font></Label>
+            <Label layoutX="16.0" layoutY="88.0" text="id: " textFill="#f2eeee">
+                <font>
+                    <Font size="20.0" />
+                </font></Label>
+            <Button layoutX="59.0" layoutY="510.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
         </children>
     </Pane>
     <Label layoutX="283.0" layoutY="40.0" text="Modify Personal Info">
@@ -66,9 +84,9 @@ stylesheets="/css/global.css">
             <PasswordField layoutX="220.0" layoutY="58.0" prefHeight="36.0" prefWidth="291.0" />
             <PasswordField layoutX="220.0" layoutY="164.0" prefHeight="36.0" prefWidth="291.0" />
             <PasswordField layoutX="220.0" layoutY="111.0" prefHeight="36.0" prefWidth="291.0" />
-            <Button styleClass="sureButton" layoutX="430.0" layoutY="221.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="87.0" text="Sure" />
+            <Button onAction="#modifyPassword" layoutX="430.0" layoutY="221.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="87.0" styleClass="sureButton" text="Sure" textFill="#fcf9f9" />
          </children>
       </Pane>
-      <Button styleClass="sureButton" layoutX="713.0" layoutY="220.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="87.0" text="Sure" />
+      <Button onAction="#modifyInfo" layoutX="713.0" layoutY="220.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="87.0" styleClass="sureButton" text="Sure" textFill="#f8f6f6" />
 </children>
 </AnchorPane>
