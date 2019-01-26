@@ -6,9 +6,15 @@ package com.msl.entity.user;
  */
 public class Admin extends User {
     public Admin(String username, String password, String info) {
-        super(username,password,info);
-        this.isAdmin = true;
-        this.permission = new Permission(true, true, true, true, true, true);
+        super(username, password, info);
+        setAdmin(true);
+        setAbleToCreateBook(true);
+        setAbleToCreateUser(true);
+        setAbleToEditBookInfo(true);
+        setAbleToGenerateBorrowReport(true);
+        setAbleToGeneratePenaltyReport(true);
+        setAbleToSearchUser(true);
+        setAbleToUpdatePermission(true);
     }
 
 }

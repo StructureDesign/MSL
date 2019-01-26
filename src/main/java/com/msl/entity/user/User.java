@@ -3,6 +3,7 @@ package com.msl.entity.user;
 import com.msl.borrowStrategy.BorrowStrategy;
 import com.msl.entity.book.Book;
 import com.msl.exception.NoPermissionException;
+import com.msl.util.NotificationHelper;
 
 import java.io.Serializable;
 import java.util.List;
@@ -11,7 +12,7 @@ import java.util.List;
  * @author hxh
  * @date 2019-01-22 15:44
  */
-public class User implements Serializable, ProfileObserver {
+public class User extends UserFunction implements Serializable, ProfileObserver {
 
     private String username;
     private String password;
@@ -19,68 +20,88 @@ public class User implements Serializable, ProfileObserver {
     private BorrowStrategy borrowStrategy;
     private int maxNumber;
     private int maxPeriod;
-    protected boolean isAdmin;
-    protected Permission permission;
+    private boolean isAdmin;
+    private boolean ableToCreateUser;
+    private boolean ableToSearchUser;
+    private boolean ableToGeneratePenaltyReport;
+    private boolean ableToGenerateBorrowReport;
+    private boolean ableToCreateBook;
+    private boolean ableToEditBookInfo;
+    private boolean ableToUpdatePermission;
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getInfo() {
+        return info;
+    }
+
+    public void setInfo(String info) {
+        inform(username + "has changed his info form " + this.info + " to " + info);
+        this.info = info;
+    }
+
+    public BorrowStrategy getBorrowStrategy() {
+        return borrowStrategy;
+    }
+
+    public void setMaxNumber(int maxNumber) {
+        this.maxNumber = maxNumber;
+    }
+
+    public void setMaxPeriod(int maxPeriod) {
+        this.maxPeriod = maxPeriod;
+    }
+
+    public boolean isAdmin() {
+        return isAdmin;
+    }
+
+    boolean isAbleToCreateUser() {
+        return ableToCreateUser;
+    }
+
+    public void setAbleToCreateUser(boolean ableToCreateUser) {
+        this.ableToCreateUser = ableToCreateUser;
+    }
 
     public User(String username, String password, String info) {
         this.username = username;
         this.password = password;
         this.info = info;
         this.isAdmin = false;
-        this.permission = new Permission();
     }
 
-    public boolean isAbleToCreateBook() {
-        return this.permission.isAbleToCreateBook();
+
+    @Override
+    boolean createUser(User user) throws NoPermissionException {
+        return false;
     }
 
-    public boolean isAbleToCreateUser() {
-        return this.permission.isAbleToCreateUser();
+    @Override
+    List<User> searchUser(String query) throws NoPermissionException {
+        return null;
     }
 
-    public boolean isAbleToEditBookInfo() {
-        return this.permission.isAbleToEditBookInfo();
+    @Override
+    String generatePenaltyReport(String username) throws NoPermissionException {
+        return null;
     }
 
-    public boolean isAbleToGenerateBorrowReport() {
-        return this.permission.isAbleToGenerateBorrowReport();
+    @Override
+    String generateBorrowReport(String username) throws NoPermissionException {
+        return null;
     }
 
-    public boolean isAbleToGeneratePenaltyReport() {
-        return this.permission.isAbleToGeneratePenaltyReport();
+    @Override
+    boolean createBook(Book book) throws NoPermissionException {
+        return false;
     }
 
-    public boolean isAbleToSearchUser() {
-        return this.permission.isAbleToSearchUser();
-    }
-
-    public boolean createUser(User user) throws NoPermissionException {
-        return permission.createUser(user);
-    }
-
-    public List<User> searchUser(String query) throws NoPermissionException {
-
-        return permission.searchUser(query);
-    }
-
-    public String generatePenaltyReport(String username) throws NoPermissionException {
-
-        return permission.generatePenaltyReport(username);
-    }
-
-    public String generateBorrowReport(String username) throws NoPermissionException {
-
-        return permission.generateBorrowReport(username);
-    }
-
-    public boolean createBook(Book book) throws NoPermissionException {
-
-        return permission.createBook(book);
-    }
-
-    public boolean editBookInfo(Book book) throws NoPermissionException {
-
-        return permission.editBookInfo(book);
+    @Override
+    boolean editBookInfo(Book book) throws NoPermissionException {
+        return false;
     }
 
 
@@ -99,6 +120,50 @@ public class User implements Serializable, ProfileObserver {
         this.maxPeriod = borrowStrategy.getMaxPeriod();
     }
 
+    boolean isAbleToSearchUser() {
+        return ableToSearchUser;
+    }
+
+    public void setAbleToSearchUser(boolean ableToSearchUser) {
+        this.ableToSearchUser = ableToSearchUser;
+    }
+
+    boolean isAbleToGeneratePenaltyReport() {
+        return ableToGeneratePenaltyReport;
+    }
+
+    void setAbleToGeneratePenaltyReport(boolean ableToGeneratePenaltyReport) {
+        this.ableToGeneratePenaltyReport = ableToGeneratePenaltyReport;
+    }
+
+    boolean isAbleToGenerateBorrowReport() {
+        return ableToGenerateBorrowReport;
+    }
+
+    void setAbleToGenerateBorrowReport(boolean ableToGenerateBorrowReport) {
+        this.ableToGenerateBorrowReport = ableToGenerateBorrowReport;
+    }
+
+    boolean isAbleToCreateBook() {
+        return ableToCreateBook;
+    }
+
+    void setAbleToCreateBook(boolean ableToCreateBook) {
+        this.ableToCreateBook = ableToCreateBook;
+    }
+
+    boolean isAbleToEditBookInfo() {
+        return ableToEditBookInfo;
+    }
+
+    void setAbleToEditBookInfo(boolean ableToEditBookInfo) {
+        this.ableToEditBookInfo = ableToEditBookInfo;
+    }
+
+    boolean isAbleToUpdatePermission() {
+        return ableToUpdatePermission;
+    }
+
     public int getMaxPeriod() {
         return maxPeriod;
     }
@@ -111,20 +176,17 @@ public class User implements Serializable, ProfileObserver {
         this.password = password;
     }
 
-    public void setInfo(String info) {
-        this.info = info;
+    public void setAbleToUpdatePermission(boolean ableToUpdatePermission) {
+        this.ableToUpdatePermission = ableToUpdatePermission;
     }
 
     public void setAdmin(boolean admin) {
         isAdmin = admin;
     }
 
-    public void setPermission(Permission permission) {
-        this.permission = permission;
-    }
 
     @Override
     public void inform(String s) {
-
+        NotificationHelper.help(s);
     }
 }
