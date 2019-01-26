@@ -16,12 +16,69 @@ public class UserProxy extends UserFunction {
         this.user = user;
     }
 
-    @Override
-    public boolean updateUser(User user) throws NoPermissionException {
-        if (!this.user.isAbleToUpdateUser()) {
+    public void setAbleToCreateUser(User user, boolean ableToCreateUser) throws NoPermissionException {
+        if (this.user.isAbleToUpdatePermission()) {
+            user.setAbleToCreateUser(ableToCreateUser);
+        } else {
             throw new NoPermissionException();
         }
-        return user.updateUser(user);
+    }
+
+
+    public void setAbleToSearchUser(User user, boolean ableToSearchUser) throws NoPermissionException {
+        if (this.user.isAbleToUpdatePermission()) {
+            user.setAbleToSearchUser(ableToSearchUser);
+        } else {
+            throw new NoPermissionException();
+        }
+
+    }
+
+
+    public void setAbleToGeneratePenaltyReport(User user, boolean ableToGeneratePenaltyReport) throws NoPermissionException {
+        if (this.user.isAbleToUpdatePermission()) {
+            user.setAbleToGeneratePenaltyReport(ableToGeneratePenaltyReport);
+        } else {
+            throw new NoPermissionException();
+        }
+    }
+
+
+    public void setAbleToGenerateBorrowReport(User user, boolean ableToGenerateBorrowReport) throws NoPermissionException {
+        if (this.user.isAbleToUpdatePermission()) {
+            user.setAbleToGenerateBorrowReport(ableToGenerateBorrowReport);
+        } else {
+            throw new NoPermissionException();
+        }
+    }
+
+
+    public void setAbleToCreateBook(User user, boolean ableToCreateBook) throws NoPermissionException {
+        if (this.user.isAbleToUpdatePermission()) {
+            user.setAbleToCreateBook(ableToCreateBook);
+        } else {
+            throw new NoPermissionException();
+        }
+    }
+
+
+    public void setAbleToEditBookInfo(User user, boolean ableToEditBookInfo) throws NoPermissionException {
+
+        if (this.user.isAbleToUpdatePermission()) {
+            user.setAbleToEditBookInfo(ableToEditBookInfo);
+        } else {
+            throw new NoPermissionException();
+        }
+
+    }
+
+
+    public void setAbleToUpdateUser(User user, boolean ableToUpdateUser) throws NoPermissionException {
+        if (this.user.isAbleToUpdatePermission()) {
+            user.setAbleToUpdatePermission(ableToUpdateUser);
+        } else {
+            throw new NoPermissionException();
+        }
     }
 
     @Override

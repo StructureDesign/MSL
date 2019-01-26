@@ -20,44 +20,59 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
     private BorrowStrategy borrowStrategy;
     private int maxNumber;
     private int maxPeriod;
-    protected boolean isAdmin;
-    protected Permission permission;
+    private boolean isAdmin;
+    private boolean ableToCreateUser;
+    private boolean ableToSearchUser;
+    private boolean ableToGeneratePenaltyReport;
+    private boolean ableToGenerateBorrowReport;
+    private boolean ableToCreateBook;
+    private boolean ableToEditBookInfo;
+    private boolean ableToUpdatePermission;
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getInfo() {
+        return info;
+    }
+
+    public void setInfo(String info) {
+        inform(username + "has changed his info form " + this.info + " to " + info);
+        this.info = info;
+    }
+
+    public BorrowStrategy getBorrowStrategy() {
+        return borrowStrategy;
+    }
+
+    public void setMaxNumber(int maxNumber) {
+        this.maxNumber = maxNumber;
+    }
+
+    public void setMaxPeriod(int maxPeriod) {
+        this.maxPeriod = maxPeriod;
+    }
+
+    public boolean isAdmin() {
+        return isAdmin;
+    }
+
+    boolean isAbleToCreateUser() {
+        return ableToCreateUser;
+    }
+
+    public void setAbleToCreateUser(boolean ableToCreateUser) {
+        this.ableToCreateUser = ableToCreateUser;
+    }
 
     public User(String username, String password, String info) {
         this.username = username;
         this.password = password;
         this.info = info;
         this.isAdmin = false;
-        this.permission = new Permission();
     }
 
-    public boolean isAbleToUpdateUser() {
-        return permission.isAbleToUpdateUser();
-    }
-
-    public boolean isAbleToCreateUser() {
-        return permission.isAbleToCreateUser();
-    }
-
-    public boolean isAbleToSearchUser() {
-        return permission.isAbleToSearchUser();
-    }
-
-    public boolean isAbleToGeneratePenaltyReport() {
-        return permission.isAbleToGeneratePenaltyReport();
-    }
-
-    public boolean isAbleToGenerateBorrowReport() {
-        return permission.isAbleToGenerateBorrowReport();
-    }
-
-    public boolean isAbleToCreateBook() {
-        return permission.isAbleToCreateBook();
-    }
-
-    public boolean isAbleToEditBookInfo() {
-        return permission.isAbleToEditBookInfo();
-    }
 
     @Override
     boolean createUser(User user) throws NoPermissionException {
@@ -89,10 +104,6 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
         return false;
     }
 
-    @Override
-    boolean updateUser(User user) throws NoPermissionException {
-        return false;
-    }
 
     public String getUsername() {
         return username;
@@ -109,6 +120,50 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
         this.maxPeriod = borrowStrategy.getMaxPeriod();
     }
 
+    boolean isAbleToSearchUser() {
+        return ableToSearchUser;
+    }
+
+    public void setAbleToSearchUser(boolean ableToSearchUser) {
+        this.ableToSearchUser = ableToSearchUser;
+    }
+
+    boolean isAbleToGeneratePenaltyReport() {
+        return ableToGeneratePenaltyReport;
+    }
+
+    void setAbleToGeneratePenaltyReport(boolean ableToGeneratePenaltyReport) {
+        this.ableToGeneratePenaltyReport = ableToGeneratePenaltyReport;
+    }
+
+    boolean isAbleToGenerateBorrowReport() {
+        return ableToGenerateBorrowReport;
+    }
+
+    void setAbleToGenerateBorrowReport(boolean ableToGenerateBorrowReport) {
+        this.ableToGenerateBorrowReport = ableToGenerateBorrowReport;
+    }
+
+    boolean isAbleToCreateBook() {
+        return ableToCreateBook;
+    }
+
+    void setAbleToCreateBook(boolean ableToCreateBook) {
+        this.ableToCreateBook = ableToCreateBook;
+    }
+
+    boolean isAbleToEditBookInfo() {
+        return ableToEditBookInfo;
+    }
+
+    void setAbleToEditBookInfo(boolean ableToEditBookInfo) {
+        this.ableToEditBookInfo = ableToEditBookInfo;
+    }
+
+    boolean isAbleToUpdatePermission() {
+        return ableToUpdatePermission;
+    }
+
     public int getMaxPeriod() {
         return maxPeriod;
     }
@@ -121,17 +176,14 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
         this.password = password;
     }
 
-    public void setInfo(String info) {
-        this.info = info;
+    public void setAbleToUpdatePermission(boolean ableToUpdatePermission) {
+        this.ableToUpdatePermission = ableToUpdatePermission;
     }
 
     public void setAdmin(boolean admin) {
         isAdmin = admin;
     }
 
-    public void setPermission(Permission permission) {
-        this.permission = permission;
-    }
 
     @Override
     public void inform(String s) {

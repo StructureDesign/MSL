@@ -11,6 +11,7 @@ import java.util.List;
  */
 abstract class UserFunction {
 
+
     abstract boolean createUser(User user) throws NoPermissionException;
 
     abstract List<User> searchUser(String query) throws NoPermissionException;
@@ -23,5 +24,5 @@ abstract class UserFunction {
 
     abstract boolean editBookInfo(Book book) throws NoPermissionException;
 
-    abstract boolean updateUser(User user) throws NoPermissionException;
+
 }
