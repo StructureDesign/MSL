@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="560.0" prefWidth="900.0" stylesheets="/css/global.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msl.ui.OnlineReaderController">
+<AnchorPane prefHeight="560.0" prefWidth="900.0" stylesheets="/css/global.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msl.ui.controller.OnlineReaderController">
    <children>
       <Label layoutX="283.0" layoutY="128.0" text="Input the book name(with extension)">
          <font>

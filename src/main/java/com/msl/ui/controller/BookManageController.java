@@ -1,7 +1,8 @@
-package com.msl.ui;
+package com.msl.ui.controller;
 
 import com.msl.StageSingleton;
 import com.msl.entity.book.Book;
+import com.msl.ui.Alert;
 import com.sun.org.apache.bcel.internal.generic.ALOAD;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

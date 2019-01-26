@@ -3,6 +3,7 @@ package com.msl.entity.user;
 import com.msl.entity.book.Book;
 import com.msl.exception.NoPermissionException;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -99,6 +100,17 @@ public class Permission {
 
     public boolean isAbleToSearchUser() {
         return ableToSearchUser;
+    }
+
+    public List<String> permissionList(){
+        List<String> list = new ArrayList<>();
+        list.add("Create User");
+        list.add("Search User");
+        list.add("Generate Borrow Report");
+        list.add("Generate Penalty Report");
+        list.add("Create Book");
+        list.add("Edit Book Info");
+        return list;
     }
 }
 

@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="560.0" prefWidth="900.0" stylesheets="/css/global.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msl.ui.SettingBorrowStrategyController">
+<AnchorPane prefHeight="560.0" prefWidth="900.0" stylesheets="/css/global.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msl.ui.controller.SettingBorrowStrategyController">
     <children>
         <Pane prefHeight="560.0" prefWidth="222.0" style="-fx-background-color: #555555;">
             <children>

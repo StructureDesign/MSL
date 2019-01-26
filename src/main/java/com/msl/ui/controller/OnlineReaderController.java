@@ -1,8 +1,9 @@
-package com.msl.ui;
+package com.msl.ui.controller;
 
 import com.msl.StageSingleton;
 import com.msl.onlineReader.AbstractOnlineReader;
 import com.msl.onlineReader.OnlineReaderFactory;
+import com.msl.ui.Alert;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Dialog;

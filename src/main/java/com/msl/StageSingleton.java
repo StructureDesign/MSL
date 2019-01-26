@@ -1,9 +1,8 @@
 package com.msl;
 
 import com.msl.entity.user.Admin;
-import com.msl.entity.user.Permission;
 import com.msl.entity.user.User;
-import com.msl.ui.*;
+import com.msl.ui.controller.*;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.fxml.JavaFXBuilderFactory;
@@ -11,7 +10,6 @@ import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-import javax.jws.soap.SOAPBinding;
 import java.io.InputStream;
 
 public class StageSingleton {
@@ -21,9 +19,6 @@ public class StageSingleton {
     public static User nowUser = new User(userName,"000","...");
     public static User adminUser = new Admin("Admin", "000","...");
     public static User commonUser = new User(userName,"000","...");
-    static {
-        commonUser.setPermission(new Permission());
-    }
 
     public static synchronized Stage getStage() {
         return stage;

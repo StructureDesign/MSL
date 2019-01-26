@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="560.0" prefWidth="900.0" stylesheets="/css/global.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msl.ui.UserManageController">
+<AnchorPane prefHeight="560.0" prefWidth="900.0" stylesheets="/css/global.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msl.ui.controller.UserManageController">
     <children>
         <Pane prefHeight="560.0" prefWidth="222.0" style="-fx-background-color: #555555;">
             <children>
@@ -59,7 +59,7 @@
       </ScrollPane>
       <Pane fx:id="searchPane" layoutX="290.0" layoutY="189.0" prefHeight="125.0" prefWidth="541.0">
          <children>
-            <TextField layoutX="14.0" layoutY="14.0" prefHeight="44.0" prefWidth="380.0" promptText="Search User by ID" />
+            <TextField layoutX="14.0" layoutY="14.0" prefHeight="44.0" prefWidth="380.0" promptText="Search User by Name" />
             <Button layoutX="418.0" layoutY="14.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" styleClass="sureButton" text="Sure" textFill="#ebe9e9">
                <font>
                   <Font size="20.0" />

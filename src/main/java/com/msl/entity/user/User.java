@@ -3,9 +3,12 @@ package com.msl.entity.user;
 import com.msl.borrowStrategy.BorrowStrategy;
 import com.msl.entity.book.Book;
 import com.msl.exception.NoPermissionException;
+import com.msl.util.Identify;
 import com.msl.util.NotificationHelper;
+import com.sun.org.apache.xpath.internal.operations.Bool;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -28,6 +31,7 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
     private boolean ableToCreateBook;
     private boolean ableToEditBookInfo;
     private boolean ableToUpdatePermission;
+    private Identify identify;
 
     public String getPassword() {
         return password;
@@ -40,6 +44,14 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
     public void setInfo(String info) {
         inform(username + "has changed his info form " + this.info + " to " + info);
         this.info = info;
+    }
+
+    public void setIdentify(Identify identify) {
+        this.identify = identify;
+    }
+
+    public String getIdentify() {
+        return identify.toString();
     }
 
     public BorrowStrategy getBorrowStrategy() {
@@ -58,7 +70,7 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
         return isAdmin;
     }
 
-    boolean isAbleToCreateUser() {
+    public boolean isAbleToCreateUser() {
         return ableToCreateUser;
     }
 
@@ -71,6 +83,7 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
         this.password = password;
         this.info = info;
         this.isAdmin = false;
+        this.identify = Identify.Teacher;
     }
 
 
@@ -120,7 +133,7 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
         this.maxPeriod = borrowStrategy.getMaxPeriod();
     }
 
-    boolean isAbleToSearchUser() {
+    public boolean isAbleToSearchUser() {
         return ableToSearchUser;
     }
 
@@ -128,7 +141,7 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
         this.ableToSearchUser = ableToSearchUser;
     }
 
-    boolean isAbleToGeneratePenaltyReport() {
+    public boolean isAbleToGeneratePenaltyReport() {
         return ableToGeneratePenaltyReport;
     }
 
@@ -136,7 +149,7 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
         this.ableToGeneratePenaltyReport = ableToGeneratePenaltyReport;
     }
 
-    boolean isAbleToGenerateBorrowReport() {
+    public boolean isAbleToGenerateBorrowReport() {
         return ableToGenerateBorrowReport;
     }
 
@@ -144,7 +157,7 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
         this.ableToGenerateBorrowReport = ableToGenerateBorrowReport;
     }
 
-    boolean isAbleToCreateBook() {
+    public boolean isAbleToCreateBook() {
         return ableToCreateBook;
     }
 
@@ -152,7 +165,7 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
         this.ableToCreateBook = ableToCreateBook;
     }
 
-    boolean isAbleToEditBookInfo() {
+    public boolean isAbleToEditBookInfo() {
         return ableToEditBookInfo;
     }
 
@@ -160,7 +173,7 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
         this.ableToEditBookInfo = ableToEditBookInfo;
     }
 
-    boolean isAbleToUpdatePermission() {
+    public boolean isAbleToUpdatePermission() {
         return ableToUpdatePermission;
     }
 
@@ -182,6 +195,23 @@ public class User extends UserFunction implements Serializable, ProfileObserver 
 
     public void setAdmin(boolean admin) {
         isAdmin = admin;
+    }
+
+    public List<Boolean> permissionList(){
+        List<Boolean> list = new ArrayList<>();
+        if (isAbleToCreateUser())   list.add(true);
+        else list.add(false);
+        if (isAbleToSearchUser())   list.add(true);
+        else list.add(false);
+        if (isAbleToGenerateBorrowReport()) list.add(true);
+        else list.add(false);
+        if (isAbleToGeneratePenaltyReport())    list.add(true);
+        else list.add(false);
+        if (isAbleToCreateBook())   list.add(true);
+        else list.add(false);
+        if (isAbleToEditBookInfo()) list.add(true);
+        else list.add(false);
+        return list;
     }
 
 

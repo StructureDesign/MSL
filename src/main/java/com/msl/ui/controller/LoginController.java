@@ -1,4 +1,4 @@
-package com.msl.ui;
+package com.msl.ui.controller;
 
 import com.msl.StageSingleton;
 import com.msl.util.Identify;
@@ -31,7 +31,7 @@ public class LoginController implements Initializable {
 
         StageSingleton.userId = "001";
         StageSingleton.userName = idfield.getText().trim();
-        if (idfield.getText().trim().equals("Admin")) {
+        if (idfield.getText().trim().toLowerCase().equals("admin")) {
             StageSingleton.userIdentify = Identify.Admin.toString();
             StageSingleton.nowUser = StageSingleton.adminUser;
         }

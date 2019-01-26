@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="560.0" prefWidth="900.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msl.ui.LoginController">
+<AnchorPane prefHeight="560.0" prefWidth="900.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msl.ui.controller.LoginController">
    <children>
       <Label layoutX="219.0" layoutY="70.0" text="Mangement System of Library" textFill="#fcfcfc">
          <font>
