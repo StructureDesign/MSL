@@ -1,10 +1,5 @@
 package com.msl.entity.user;
 
-import com.msl.entity.book.Book;
-import com.msl.exception.NoPermissionException;
-
-import java.util.List;
-
 /**
  * @author hxh
  * @date 2019-01-25 16:25
@@ -16,6 +11,7 @@ public class Permission {
     private boolean ableToGenerateBorrowReport;
     private boolean ableToCreateBook;
     private boolean ableToEditBookInfo;
+    private boolean ableToUpdateUser;
 
     public Permission() {
         ableToCreateUser = false;
@@ -24,56 +20,73 @@ public class Permission {
         ableToGeneratePenaltyReport = false;
         ableToEditBookInfo = false;
         ableToCreateBook = false;
+        ableToUpdateUser = false;
     }
 
-    public Permission(boolean ableToCreateUser, boolean ableToSearchUser, boolean ableToGeneratePenaltyReport, boolean ableToGenerateBorrowReport, boolean ableToCreateBook, boolean ableToEditBookInfo) {
+
+    public Permission(boolean ableToCreateUser, boolean ableToSearchUser, boolean ableToGeneratePenaltyReport, boolean ableToGenerateBorrowReport, boolean ableToCreateBook, boolean ableToEditBookInfo, boolean ableToUpdateUser) {
         this.ableToCreateUser = ableToCreateUser;
         this.ableToSearchUser = ableToSearchUser;
         this.ableToGeneratePenaltyReport = ableToGeneratePenaltyReport;
         this.ableToGenerateBorrowReport = ableToGenerateBorrowReport;
         this.ableToCreateBook = ableToCreateBook;
         this.ableToEditBookInfo = ableToEditBookInfo;
+        this.ableToUpdateUser = ableToUpdateUser;
     }
 
-    boolean createUser(User user) throws NoPermissionException {
-        if (!ableToCreateUser) {
-            throw new NoPermissionException();
-        }
-        return false;
+    public boolean isAbleToUpdateUser() {
+        return ableToUpdateUser;
     }
 
-    List<User> searchUser(String query) throws NoPermissionException {
-        if (!ableToSearchUser) {
-            throw new NoPermissionException();
-        }
-        return null;
+    public void setAbleToUpdateUser(boolean ableToUpdateUser) {
+        this.ableToUpdateUser = ableToUpdateUser;
     }
 
-    String generatePenaltyReport(String userID) throws NoPermissionException {
-        if (!ableToGeneratePenaltyReport) {
-            throw new NoPermissionException();
-        }
-        return null;
+    public boolean isAbleToCreateUser() {
+        return ableToCreateUser;
     }
 
-    String generateBorrowReport(String userID) throws NoPermissionException {
-        if (!ableToGenerateBorrowReport) {
-            throw new NoPermissionException();
-        }
-        return null;
+    public void setAbleToCreateUser(boolean ableToCreateUser) {
+        this.ableToCreateUser = ableToCreateUser;
     }
 
-    boolean createBook(Book book) throws NoPermissionException {
-        if (!ableToCreateBook) {
-            throw new NoPermissionException();
-        }
-        return false;
+    public boolean isAbleToSearchUser() {
+        return ableToSearchUser;
     }
 
-    boolean editBookInfo(Book book) throws NoPermissionException {
-        if (!ableToEditBookInfo) {
-            throw new NoPermissionException();
-        }
-        return false;
+    public void setAbleToSearchUser(boolean ableToSearchUser) {
+        this.ableToSearchUser = ableToSearchUser;
+    }
+
+    public boolean isAbleToGeneratePenaltyReport() {
+        return ableToGeneratePenaltyReport;
+    }
+
+    public void setAbleToGeneratePenaltyReport(boolean ableToGeneratePenaltyReport) {
+        this.ableToGeneratePenaltyReport = ableToGeneratePenaltyReport;
+    }
+
+    public boolean isAbleToGenerateBorrowReport() {
+        return ableToGenerateBorrowReport;
+    }
+
+    public void setAbleToGenerateBorrowReport(boolean ableToGenerateBorrowReport) {
+        this.ableToGenerateBorrowReport = ableToGenerateBorrowReport;
+    }
+
+    public boolean isAbleToCreateBook() {
+        return ableToCreateBook;
+    }
+
+    public void setAbleToCreateBook(boolean ableToCreateBook) {
+        this.ableToCreateBook = ableToCreateBook;
+    }
+
+    public boolean isAbleToEditBookInfo() {
+        return ableToEditBookInfo;
+    }
+
+    public void setAbleToEditBookInfo(boolean ableToEditBookInfo) {
+        this.ableToEditBookInfo = ableToEditBookInfo;
     }
 }

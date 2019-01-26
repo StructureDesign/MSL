@@ -3,6 +3,7 @@ package com.msl.entity.user;
 import com.msl.borrowStrategy.BorrowStrategy;
 import com.msl.entity.book.Book;
 import com.msl.exception.NoPermissionException;
+import com.msl.util.NotificationHelper;
 
 import java.io.Serializable;
 import java.util.List;
@@ -11,7 +12,7 @@ import java.util.List;
  * @author hxh
  * @date 2019-01-22 15:44
  */
-public class User implements Serializable, ProfileObserver {
+public class User extends UserFunction implements Serializable, ProfileObserver {
 
     private String username;
     private String password;
@@ -30,35 +31,68 @@ public class User implements Serializable, ProfileObserver {
         this.permission = new Permission();
     }
 
-    public boolean createUser(User user) throws NoPermissionException {
-        return permission.createUser(user);
+    public boolean isAbleToUpdateUser() {
+        return permission.isAbleToUpdateUser();
     }
 
-    public List<User> searchUser(String query) throws NoPermissionException {
-
-        return permission.searchUser(query);
+    public boolean isAbleToCreateUser() {
+        return permission.isAbleToCreateUser();
     }
 
-    public String generatePenaltyReport(String username) throws NoPermissionException {
-
-        return permission.generatePenaltyReport(username);
+    public boolean isAbleToSearchUser() {
+        return permission.isAbleToSearchUser();
     }
 
-    public String generateBorrowReport(String username) throws NoPermissionException {
-
-        return permission.generateBorrowReport(username);
+    public boolean isAbleToGeneratePenaltyReport() {
+        return permission.isAbleToGeneratePenaltyReport();
     }
 
-    public boolean createBook(Book book) throws NoPermissionException {
-
-        return permission.createBook(book);
+    public boolean isAbleToGenerateBorrowReport() {
+        return permission.isAbleToGenerateBorrowReport();
     }
 
-    public boolean editBookInfo(Book book) throws NoPermissionException {
-
-        return permission.editBookInfo(book);
+    public boolean isAbleToCreateBook() {
+        return permission.isAbleToCreateBook();
     }
 
+    public boolean isAbleToEditBookInfo() {
+        return permission.isAbleToEditBookInfo();
+    }
+
+    @Override
+    boolean createUser(User user) throws NoPermissionException {
+        return false;
+    }
+
+    @Override
+    List<User> searchUser(String query) throws NoPermissionException {
+        return null;
+    }
+
+    @Override
+    String generatePenaltyReport(String username) throws NoPermissionException {
+        return null;
+    }
+
+    @Override
+    String generateBorrowReport(String username) throws NoPermissionException {
+        return null;
+    }
+
+    @Override
+    boolean createBook(Book book) throws NoPermissionException {
+        return false;
+    }
+
+    @Override
+    boolean editBookInfo(Book book) throws NoPermissionException {
+        return false;
+    }
+
+    @Override
+    boolean updateUser(User user) throws NoPermissionException {
+        return false;
+    }
 
     public String getUsername() {
         return username;
@@ -101,6 +135,6 @@ public class User implements Serializable, ProfileObserver {
 
     @Override
     public void inform(String s) {
-
+        NotificationHelper.help(s);
     }
 }
