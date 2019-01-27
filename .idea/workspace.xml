@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbc116f5-719f-49bc-93be-65f1dcb6befe" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/msl/ui/PermissionCheckTable.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/MSL.iml" afterPath="$PROJECT_DIR$/MSL.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/MainApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/MainApp.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/StageSingleton.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/StageSingleton.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/entity/user/Admin.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/entity/user/Admin.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/entity/user/Permission.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/entity/user/Permission.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/entity/user/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/entity/user/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/ui/BookManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/ui/controller/BookManageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/ui/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/ui/controller/LoginController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/ui/OnlineReaderController.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/ui/controller/OnlineReaderController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/ui/PermissionManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/ui/controller/PermissionManageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/ui/PersonalInfoModifyController.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/ui/controller/PersonalInfoModifyController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/ui/SettingBorrowStrategyController.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/ui/controller/SettingBorrowStrategyController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/ui/UserManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/ui/controller/UserManageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/BookManageView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/BookManageView.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/LoginView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/LoginView.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/OnlineReadingView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/OnlineReadingView.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/PermissionManageView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/PermissionManageView.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/PersonalInfoModifyView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/PersonalInfoModifyView.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/SettingBorrowStrategyView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/SettingBorrowStrategyView.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/UserManageView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/UserManageView.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/msl/ui/controller/PermissionManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/msl/ui/controller/PermissionManageController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,106 +16,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="OnlineReaderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/controller/OnlineReaderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermissionManageController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PermissionManageController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/controller/PermissionManageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="50" column="52" lean-forward="false" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+            <state relative-caret-position="346">
+              <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2142#2143#0" expanded="true" />
-                <element signature="e#2203#2204#0" expanded="true" />
-                <element signature="e#2240#2241#0" expanded="true" />
-                <element signature="e#2284#2285#0" expanded="true" />
-                <element signature="e#2329#2330#0" expanded="true" />
-                <element signature="e#2380#2381#0" expanded="true" />
-                <element signature="e#2423#2424#0" expanded="true" />
-                <element signature="e#2472#2473#0" expanded="true" />
-                <element signature="e#2520#2521#0" expanded="true" />
-                <element signature="e#2575#2576#0" expanded="true" />
-                <element signature="e#2626#2627#0" expanded="true" />
-                <element signature="e#2683#2684#0" expanded="true" />
-                <element signature="e#2726#2727#0" expanded="true" />
-                <element signature="e#2775#2776#0" expanded="true" />
-                <element signature="e#2829#2830#0" expanded="true" />
-                <element signature="e#2889#2890#0" expanded="true" />
+                <element signature="e#2164#2165#0" expanded="true" />
+                <element signature="e#2225#2226#0" expanded="true" />
+                <element signature="e#2262#2263#0" expanded="true" />
+                <element signature="e#2306#2307#0" expanded="true" />
+                <element signature="e#2351#2352#0" expanded="true" />
+                <element signature="e#2402#2403#0" expanded="true" />
+                <element signature="e#2445#2446#0" expanded="true" />
+                <element signature="e#2494#2495#0" expanded="true" />
+                <element signature="e#2542#2543#0" expanded="true" />
+                <element signature="e#2597#2598#0" expanded="true" />
+                <element signature="e#2648#2649#0" expanded="true" />
+                <element signature="e#2705#2706#0" expanded="true" />
+                <element signature="e#2748#2749#0" expanded="true" />
+                <element signature="e#2797#2798#0" expanded="true" />
+                <element signature="e#2851#2852#0" expanded="true" />
+                <element signature="e#2911#2912#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/entity/user/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding>
-                <element signature="e#1363#1364#0" expanded="true" />
-                <element signature="e#1403#1404#0" expanded="true" />
-                <element signature="e#1438#1439#0" expanded="true" />
-                <element signature="e#1480#1481#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Admin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/entity/user/Admin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Permission.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/entity/user/Permission.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OnlineReadingView.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/OnlineReadingView.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-              <folding>
-                <element signature="n#Label#0;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Label#1;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Label#2;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Label#3;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Label#4;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Label#5;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PermissionManageView.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/PermissionManageView.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="79" column="27" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+            <state relative-caret-position="2013">
+              <caret line="79" column="27" lean-forward="false" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
               <folding>
                 <element signature="n#Label#0;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
                 <element signature="n#Label#1;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
@@ -153,12 +64,211 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+            <state relative-caret-position="33">
+              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/com.msl.onlineReader.AbstractOnlineReader" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.msl.onlineReader.AbstractOnlineReader">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.msl.onlineReader.AbstractOnlineReader</OriginalElement>
+              <nodes>
+                <node x="250.5" y="301.0">com.msl.onlineReader.OnlineReaderFactory</node>
+                <node x="345.0" y="0.0">com.msl.onlineReader.AbstractOnlineReader</node>
+                <node x="0.0" y="169.0">com.msl.onlineReader.PdfReader</node>
+                <node x="253.0" y="169.0">com.msl.onlineReader.Epubeader</node>
+                <node x="506.0" y="169.0">com.msl.onlineReader.WordReader</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.msl.onlineReader.OnlineReaderFactory" target="com.msl.onlineReader.PdfReader">
+                  <point x="-184.125" y="-41.0" />
+                  <point x="311.875" y="276.0" />
+                  <point x="116.5" y="276.0" />
+                  <point x="0.0" y="41.0" />
+                </edge>
+                <edge source="com.msl.onlineReader.OnlineReaderFactory" target="com.msl.onlineReader.AbstractOnlineReader">
+                  <point x="184.125" y="-41.0" />
+                  <point x="680.125" y="276.0" />
+                  <point x="749.5" y="276.0" />
+                  <point x="749.5" y="139.0" />
+                  <point x="609.25" y="139.0" />
+                  <point x="113.25" y="59.5" />
+                </edge>
+                <edge source="com.msl.onlineReader.OnlineReaderFactory" target="com.msl.onlineReader.Epubeader">
+                  <point x="-61.375" y="-41.0" />
+                  <point x="434.625" y="276.0" />
+                  <point x="369.5" y="276.0" />
+                  <point x="0.0" y="41.0" />
+                </edge>
+                <edge source="com.msl.onlineReader.Epubeader" target="com.msl.onlineReader.AbstractOnlineReader">
+                  <point x="0.0" y="-41.0" />
+                  <point x="369.5" y="149.0" />
+                  <point x="458.25" y="149.0" />
+                  <point x="-37.75" y="59.5" />
+                </edge>
+                <edge source="com.msl.onlineReader.PdfReader" target="com.msl.onlineReader.AbstractOnlineReader">
+                  <point x="0.0" y="-41.0" />
+                  <point x="116.5" y="139.0" />
+                  <point x="382.75" y="139.0" />
+                  <point x="-113.25" y="59.5" />
+                </edge>
+                <edge source="com.msl.onlineReader.WordReader" target="com.msl.onlineReader.AbstractOnlineReader">
+                  <point x="0.0" y="-41.0" />
+                  <point x="622.5" y="149.0" />
+                  <point x="533.75" y="149.0" />
+                  <point x="37.75" y="59.5" />
+                </edge>
+                <edge source="com.msl.onlineReader.OnlineReaderFactory" target="com.msl.onlineReader.WordReader">
+                  <point x="61.375" y="-41.0" />
+                  <point x="557.375" y="276.0" />
+                  <point x="622.5" y="276.0" />
+                  <point x="0.0" y="41.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-58.0" y="205.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+                <Category>Fields</Category>
+                <Category>Properties</Category>
+                <Category>Constructors</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/com.msl.borrowStrategy.BorrowStrategy" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.msl.borrowStrategy.BorrowStrategy">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.msl.borrowStrategy.BorrowStrategy</OriginalElement>
+              <nodes>
+                <node x="572.0" y="54.5">com.msl.entity.user.ProfileObserver</node>
+                <node x="275.625" y="987.0">com.msl.entity.user.UserFunction</node>
+                <node x="0.0" y="0.0">com.msl.borrowStrategy.BorrowStrategy</node>
+                <node x="166.625" y="241.0">com.msl.entity.user.User</node>
+                <node x="381.0" y="72.5">java.io.Serializable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.msl.entity.user.UserFunction" target="com.msl.entity.user.User">
+                  <point x="-46.5" y="-23.0" />
+                  <point x="322.125" y="962.0" />
+                  <point x="267.625" y="962.0" />
+                  <point x="-101.0" y="348.0" />
+                </edge>
+                <edge source="com.msl.entity.user.User" target="java.io.Serializable">
+                  <point x="50.5" y="-348.0" />
+                  <point x="419.125" y="216.0" />
+                  <point x="466.5" y="216.0" />
+                  <point x="0.0" y="23.0" />
+                </edge>
+                <edge source="com.msl.entity.user.User" target="com.msl.entity.user.ProfileObserver">
+                  <point x="151.5" y="-348.0" />
+                  <point x="520.125" y="216.0" />
+                  <point x="700.5" y="216.0" />
+                  <point x="0.0" y="41.0" />
+                </edge>
+                <edge source="com.msl.entity.user.User" target="com.msl.entity.user.UserFunction">
+                  <point x="101.0" y="348.0" />
+                  <point x="469.625" y="962.0" />
+                  <point x="415.125" y="962.0" />
+                  <point x="46.5" y="-23.0" />
+                </edge>
+                <edge source="com.msl.entity.user.User" target="com.msl.borrowStrategy.BorrowStrategy">
+                  <point x="-50.5" y="-348.0" />
+                  <point x="318.125" y="216.0" />
+                  <point x="270.75" y="216.0" />
+                  <point x="90.25" y="95.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.585679806918745" x="-199.21978021978026" y="338.78021978021974" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Inner Classes</Category>
+                <Category>Properties</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnlineReaderFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/onlineReader/OnlineReaderFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingBorrowStrategyController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/controller/SettingBorrowStrategyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/com.msl.entity.user.User" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.msl.entity.user.User">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.msl.entity.user.User</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">com.msl.entity.user.ProfileObserver</node>
+                <node x="226.0" y="0.0">com.msl.entity.user.UserFunction</node>
+                <node x="0.0" y="187.0">com.msl.borrowStrategy.BorrowStrategy</node>
+                <node x="263.5" y="96.0">com.msl.entity.user.User</node>
+                <node x="432.0" y="0.0">java.io.Serializable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.msl.entity.user.User" target="java.io.Serializable">
+                  <point x="37.0" y="-23.0" />
+                  <point x="356.0" y="71.0" />
+                  <point x="517.5" y="71.0" />
+                  <point x="0.0" y="23.0" />
+                </edge>
+                <edge source="com.msl.entity.user.User" target="com.msl.entity.user.ProfileObserver">
+                  <point x="-37.0" y="-23.0" />
+                  <point x="282.0" y="71.0" />
+                  <point x="103.0" y="71.0" />
+                  <point x="0.0" y="23.0" />
+                </edge>
+                <edge source="com.msl.entity.user.User" target="com.msl.entity.user.UserFunction">
+                  <point x="0.0" y="-23.0" />
+                  <point x="0.0" y="23.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-126.0" y="-7.5" />
+              <SelectedNodes>
+                <node>com.msl.entity.user.User</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -166,7 +276,7 @@
       <file leaf-file-name="UserManageView.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/UserManageView.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="759">
               <caret line="61" column="120" lean-forward="false" selection-start-line="61" selection-start-column="120" selection-end-line="61" selection-end-column="120" />
               <folding>
                 <element signature="n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
@@ -188,7 +298,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/PermissionCheckTable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#500#501#0" expanded="true" />
@@ -293,9 +403,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/msl/ui/PermissionCheckTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/msl/entity/user/Admin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/msl/entity/user/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/msl/ui/controller/PermissionManageController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/PermissionManageView.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/msl/ui/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/msl/ui/controller/PermissionManageController.java" />
       </list>
     </option>
   </component>
@@ -327,6 +437,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -460,10 +572,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -619,31 +729,31 @@
       <workItem from="1548241374222" duration="3141000" />
       <workItem from="1548305066095" duration="1318000" />
       <workItem from="1548419491311" duration="9799000" />
-      <workItem from="1548462921071" duration="22738000" />
+      <workItem from="1548462921071" duration="22832000" />
+      <workItem from="1548581743128" duration="3714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39085000" />
+    <option name="totallyTimeSpent" value="42893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36514524" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3648817" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03860523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6811955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27429804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27915767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -671,22 +781,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -756,14 +850,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/NavBarController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/NavBarController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/SettingBorrowStrategyView.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -817,14 +904,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/Dialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/Dialog.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -845,14 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/onlineReader/OnlineReaderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -901,45 +973,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="uml://JAVA/com.msl.onlineReader.AbstractOnlineReader">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.msl.onlineReader.AbstractOnlineReader</OriginalElement>
-          <nodes>
-            <node x="" y="">com.msl.onlineReader.AbstractOnlineReader</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="132.0" y="23.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.msl.entity.user.User">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.msl.entity.user.User</OriginalElement>
-          <nodes>
-            <node x="" y="">com.msl.entity.user.ProfileObserver</node>
-            <node x="" y="">com.msl.entity.user.UserFunction</node>
-            <node x="" y="">com.msl.entity.user.User</node>
-            <node x="" y="">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="301.5" y="71.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.msl.onlineReader.OnlineReaderFactory">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -950,7 +983,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="127.5" y="23.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="128.0" y="23.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1026,29 +1059,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/controller/SettingBorrowStrategyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/controller/UserManageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1316#1317#0" expanded="false" />
+            <element signature="e#1370#1371#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/controller/OnlineReaderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/entity/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#1363#1364#0" expanded="false" />
+            <element signature="e#1403#1404#0" expanded="false" />
+            <element signature="e#1438#1439#0" expanded="false" />
+            <element signature="e#1480#1481#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/entity/user/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/entity/user/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3003">
+          <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/OnlineReadingView.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="891">
           <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
             <element signature="n#Label#0;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
@@ -1064,17 +1128,27 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/entity/user/Permission.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/PermissionManageView.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="2013">
+          <caret line="79" column="27" lean-forward="false" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+          <folding>
+            <element signature="n#Label#0;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#1;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#2;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#3;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#4;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+            <element signature="n#Label#5;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+          </folding>
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/UserManageView.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="759">
           <caret line="61" column="120" lean-forward="false" selection-start-line="61" selection-start-column="120" selection-end-line="61" selection-end-column="120" />
           <folding>
             <element signature="n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
@@ -1091,31 +1165,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/entity/user/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/entity/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1438#1439#0" expanded="true" />
-            <element signature="e#1480#1481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/PermissionCheckTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#500#501#0" expanded="true" />
@@ -1130,65 +1183,245 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/controller/OnlineReaderController.java">
+    <entry file="uml://JAVA/com.msl.onlineReader.WordReader">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.msl.onlineReader.WordReader</OriginalElement>
+          <nodes>
+            <node x="" y="">com.msl.onlineReader.AbstractOnlineReader</node>
+            <node x="" y="">com.msl.onlineReader.WordReader</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="132.0" y="71.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.msl.entity.user.User">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.msl.entity.user.User</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">com.msl.entity.user.ProfileObserver</node>
+            <node x="226.0" y="0.0">com.msl.entity.user.UserFunction</node>
+            <node x="0.0" y="187.0">com.msl.borrowStrategy.BorrowStrategy</node>
+            <node x="263.5" y="96.0">com.msl.entity.user.User</node>
+            <node x="432.0" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.msl.entity.user.User" target="java.io.Serializable">
+              <point x="37.0" y="-23.0" />
+              <point x="356.0" y="71.0" />
+              <point x="517.5" y="71.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="com.msl.entity.user.User" target="com.msl.entity.user.ProfileObserver">
+              <point x="-37.0" y="-23.0" />
+              <point x="282.0" y="71.0" />
+              <point x="103.0" y="71.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="com.msl.entity.user.User" target="com.msl.entity.user.UserFunction">
+              <point x="0.0" y="-23.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-126.0" y="-7.5" />
+          <SelectedNodes>
+            <node>com.msl.entity.user.User</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.msl.onlineReader.AbstractOnlineReader">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.msl.onlineReader.AbstractOnlineReader</OriginalElement>
+          <nodes>
+            <node x="250.5" y="301.0">com.msl.onlineReader.OnlineReaderFactory</node>
+            <node x="345.0" y="0.0">com.msl.onlineReader.AbstractOnlineReader</node>
+            <node x="0.0" y="169.0">com.msl.onlineReader.PdfReader</node>
+            <node x="253.0" y="169.0">com.msl.onlineReader.Epubeader</node>
+            <node x="506.0" y="169.0">com.msl.onlineReader.WordReader</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.msl.onlineReader.OnlineReaderFactory" target="com.msl.onlineReader.PdfReader">
+              <point x="-184.125" y="-41.0" />
+              <point x="311.875" y="276.0" />
+              <point x="116.5" y="276.0" />
+              <point x="0.0" y="41.0" />
+            </edge>
+            <edge source="com.msl.onlineReader.OnlineReaderFactory" target="com.msl.onlineReader.AbstractOnlineReader">
+              <point x="184.125" y="-41.0" />
+              <point x="680.125" y="276.0" />
+              <point x="749.5" y="276.0" />
+              <point x="749.5" y="139.0" />
+              <point x="609.25" y="139.0" />
+              <point x="113.25" y="59.5" />
+            </edge>
+            <edge source="com.msl.onlineReader.OnlineReaderFactory" target="com.msl.onlineReader.Epubeader">
+              <point x="-61.375" y="-41.0" />
+              <point x="434.625" y="276.0" />
+              <point x="369.5" y="276.0" />
+              <point x="0.0" y="41.0" />
+            </edge>
+            <edge source="com.msl.onlineReader.Epubeader" target="com.msl.onlineReader.AbstractOnlineReader">
+              <point x="0.0" y="-41.0" />
+              <point x="369.5" y="149.0" />
+              <point x="458.25" y="149.0" />
+              <point x="-37.75" y="59.5" />
+            </edge>
+            <edge source="com.msl.onlineReader.PdfReader" target="com.msl.onlineReader.AbstractOnlineReader">
+              <point x="0.0" y="-41.0" />
+              <point x="116.5" y="139.0" />
+              <point x="382.75" y="139.0" />
+              <point x="-113.25" y="59.5" />
+            </edge>
+            <edge source="com.msl.onlineReader.WordReader" target="com.msl.onlineReader.AbstractOnlineReader">
+              <point x="0.0" y="-41.0" />
+              <point x="622.5" y="149.0" />
+              <point x="533.75" y="149.0" />
+              <point x="37.75" y="59.5" />
+            </edge>
+            <edge source="com.msl.onlineReader.OnlineReaderFactory" target="com.msl.onlineReader.WordReader">
+              <point x="61.375" y="-41.0" />
+              <point x="557.375" y="276.0" />
+              <point x="622.5" y="276.0" />
+              <point x="0.0" y="41.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-58.0" y="205.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.msl.borrowStrategy.BorrowStrategy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.msl.borrowStrategy.BorrowStrategy</OriginalElement>
+          <nodes>
+            <node x="572.0" y="54.5">com.msl.entity.user.ProfileObserver</node>
+            <node x="275.625" y="987.0">com.msl.entity.user.UserFunction</node>
+            <node x="0.0" y="0.0">com.msl.borrowStrategy.BorrowStrategy</node>
+            <node x="166.625" y="241.0">com.msl.entity.user.User</node>
+            <node x="381.0" y="72.5">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.msl.entity.user.UserFunction" target="com.msl.entity.user.User">
+              <point x="-46.5" y="-23.0" />
+              <point x="322.125" y="962.0" />
+              <point x="267.625" y="962.0" />
+              <point x="-101.0" y="348.0" />
+            </edge>
+            <edge source="com.msl.entity.user.User" target="java.io.Serializable">
+              <point x="50.5" y="-348.0" />
+              <point x="419.125" y="216.0" />
+              <point x="466.5" y="216.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="com.msl.entity.user.User" target="com.msl.entity.user.ProfileObserver">
+              <point x="151.5" y="-348.0" />
+              <point x="520.125" y="216.0" />
+              <point x="700.5" y="216.0" />
+              <point x="0.0" y="41.0" />
+            </edge>
+            <edge source="com.msl.entity.user.User" target="com.msl.entity.user.UserFunction">
+              <point x="101.0" y="348.0" />
+              <point x="469.625" y="962.0" />
+              <point x="415.125" y="962.0" />
+              <point x="46.5" y="-23.0" />
+            </edge>
+            <edge source="com.msl.entity.user.User" target="com.msl.borrowStrategy.BorrowStrategy">
+              <point x="-50.5" y="-348.0" />
+              <point x="318.125" y="216.0" />
+              <point x="270.75" y="216.0" />
+              <point x="90.25" y="95.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.585679806918745" x="-199.21978021978026" y="338.78021978021974" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/onlineReader/OnlineReaderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/controller/SettingBorrowStrategyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/controller/PermissionManageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="50" column="52" lean-forward="false" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+        <state relative-caret-position="346">
+          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2142#2143#0" expanded="true" />
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
-            <element signature="e#2284#2285#0" expanded="true" />
-            <element signature="e#2329#2330#0" expanded="true" />
-            <element signature="e#2380#2381#0" expanded="true" />
-            <element signature="e#2423#2424#0" expanded="true" />
-            <element signature="e#2472#2473#0" expanded="true" />
-            <element signature="e#2520#2521#0" expanded="true" />
-            <element signature="e#2575#2576#0" expanded="true" />
-            <element signature="e#2626#2627#0" expanded="true" />
-            <element signature="e#2683#2684#0" expanded="true" />
-            <element signature="e#2726#2727#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2829#2830#0" expanded="true" />
-            <element signature="e#2889#2890#0" expanded="true" />
+            <element signature="e#2164#2165#0" expanded="true" />
+            <element signature="e#2225#2226#0" expanded="true" />
+            <element signature="e#2262#2263#0" expanded="true" />
+            <element signature="e#2306#2307#0" expanded="true" />
+            <element signature="e#2351#2352#0" expanded="true" />
+            <element signature="e#2402#2403#0" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
+            <element signature="e#2494#2495#0" expanded="true" />
+            <element signature="e#2542#2543#0" expanded="true" />
+            <element signature="e#2597#2598#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+            <element signature="e#2705#2706#0" expanded="true" />
+            <element signature="e#2748#2749#0" expanded="true" />
+            <element signature="e#2797#2798#0" expanded="true" />
+            <element signature="e#2851#2852#0" expanded="true" />
+            <element signature="e#2911#2912#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/PermissionManageView.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="79" column="27" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
-          <folding>
-            <element signature="n#Label#0;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Label#1;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Label#2;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Label#3;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Label#4;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Label#5;n#children#0;n#Pane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/msl/ui/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>

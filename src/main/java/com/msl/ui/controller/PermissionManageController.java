@@ -53,6 +53,7 @@ public class PermissionManageController implements Initializable {
         Permission p = new Permission();
         List<String> permissions = p.permissionList();
         List<Boolean> userPermissions = user.permissionList();
+        data.clear();
         for (int i=0;i<permissions.size();i++){
             data.add(new PermissionCheckTable(permissions.get(i),userPermissions.get(i)));
         }
